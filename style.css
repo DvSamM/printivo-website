@@ -111,7 +111,7 @@ input{
 .pop{
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 20px 10px;
+    /* padding: 10px 0px 20px 10px; */
 }
 
 
@@ -384,7 +384,7 @@ footer ul{
        .call a{
         color: #1DA1F2;
         font-size: 15px;
-        padding-right: 100px;
+        padding-right: 180px;
     }
     .ivo{
         margin-top: 20px;
@@ -454,19 +454,24 @@ input{
     left: 255px;
     padding-top: 25px;
     width: 13PX;
+    display: none;
+}
+.lity input{
+    width: 330px;
+    height: 7vh;
 }
 
 .lity h1{
-    font-size: 20px;
+    font-size: 35px;
 }
 .lity p{
     /* margin-left: 15px; */
-    margin-top: 10px;
-    font-size: 10px;
+    margin-top: 27px;
+    font-size: 17px;
 }
 .lity .what{
     margin-top: 40px;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
 }
 .container{
@@ -475,17 +480,22 @@ input{
     padding: 0px 0px 0px 0px;
 }
 .pop h2{
-    font-size: 10px;
+    font-size: 15px;
 }
 .pop a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 17px;
+    /* margin-left: 50px; */
+}
+.pop{
+    padding: 0px 0px 0px 0px;
+    font-size: 19px;
 }
 
 
 .container{
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 120px;
     display: flex;
     flex-direction: column;
 }
@@ -503,7 +513,8 @@ height: 150px;
 .col{
     background-color: hsla(0, 0%, 0%, 0.1);
     width: 414px;
-    height: 600vh;
+    width: 100%;
+    height: 460vh;
     padding: 0px 40px 0px 10px;
 }
 
@@ -583,25 +594,29 @@ height: 150px;
 
 .customers{
     background-color: hsla(177, 87%, 50%, 0.151);
-    height: 60vh;
+    height: 80vh;
     width: 414px;
+    width: 100%;
     font-family: 'Times New Roman', Times, serif;
 
 }
 .customers h1{
-    font-size: 10px;
+    font-size: 20px;
 }
 .amina p{
-    font-size: 10px;
+    font-size: 20px;
+    /* height: 40vh; */
     /* width: 100px; */
 }
 .amina{
     width: 230px;
-    height: 100px;
+    width: 100%;
+    margin-left: -30px;
+    height: 20vh;
 }
 .amina .iam{
-    font-size: 10px;
-    width: 150px;
+    font-size: 20px;
+    /* width: 150px; */
 }
 
 .can{
@@ -638,6 +653,7 @@ height: 150px;
 .work{
     background-color: antiquewhite;
     width: 430px;
+    width: 100%;
     height: 100vh;
     margin-top: 40px;
     padding-top: 30px;
@@ -657,10 +673,11 @@ height: 150px;
 
 footer{
     /* background-color: #384A62; */
-    height: 160vh;
+    height: 120vh;
     margin-left: -170px;
     padding-top: 30px;
-    width: 600px;
+    width: 100%;
+    width: 690px;
     display: flex;
     flex-direction: column;
     gap: 90px;
