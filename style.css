@@ -29,7 +29,7 @@ nav a{
 .call a{
     color: #1DA1F2;
     text-decoration: none;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 button{
     background-color: white;
@@ -365,7 +365,7 @@ footer ul{
     body{
         width: 100%;
         display: block;
-        overflow-x: hidden;
+        overflow-x: hidden !important;
         margin: 0px;
     }
     html,body{
@@ -461,7 +461,7 @@ input{
 }
 
 .search{
-  display: ;
+  display: none ;
 }
 
 .lity h1{
@@ -494,6 +494,9 @@ input{
 }
 .popular h2{
     font-size: 13px;
+}
+.popular a{
+font-size: 12px;
 }
 
 
