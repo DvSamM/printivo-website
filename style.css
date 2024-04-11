@@ -111,7 +111,7 @@ input{
 .pop{
     display: flex;
     justify-content: space-between;
-    /* padding: 10px 0px 20px 10px; */
+    padding: 10px 0px 20px 10px;
 }
 
 
@@ -136,18 +136,22 @@ input{
     background-color: white;
     color: #3A4862;
     margin-top: 20px;
+    
+   
 }
 .did{
     width: 250px; height: 460px;
     background-color: white;
     color: #3A4862;
     margin-top: 20px;
+   
 }
 .bid{
     width: 250px; height: 460px;
     background-color: white;
     color: #3A4862;
     margin-top: 20px;
+   
 }
 .cid{
     width: 250px; height: 460px;
@@ -348,6 +352,9 @@ footer ul{
 .deli{
     margin-top: 20px;
 }
+.popular{
+    display: none;
+}
 
 
 
@@ -384,7 +391,7 @@ footer ul{
        .call a{
         color: #1DA1F2;
         font-size: 15px;
-        padding-right: 180px;
+        padding-right: 100px;
     }
     .ivo{
         margin-top: 20px;
@@ -442,6 +449,7 @@ input{
     padding-top: 0px;
     margin-left: -120px;
     padding-top: 20px;
+    padding-left: 50PX;
 }
 .lity{
     padding: 0px;
@@ -450,28 +458,20 @@ input{
 }
 
 .search{
-    position: absolute;
-    left: 255px;
-    padding-top: 25px;
-    width: 13PX;
-    display: none;
-}
-.lity input{
-    width: 330px;
-    height: 7vh;
+  display: ;
 }
 
 .lity h1{
-    font-size: 35px;
+    font-size: 20px;
 }
 .lity p{
     /* margin-left: 15px; */
-    margin-top: 27px;
-    font-size: 17px;
+    margin-top: 10px;
+    font-size: 10px;
 }
 .lity .what{
     margin-top: 40px;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
 }
 .container{
@@ -479,23 +479,24 @@ input{
     flex-direction: column;
     padding: 0px 0px 0px 0px;
 }
-.pop h2{
-    font-size: 15px;
-}
-.pop a{
-    text-decoration: none;
-    font-size: 17px;
-    /* margin-left: 50px; */
-}
 .pop{
-    padding: 0px 0px 0px 0px;
-    font-size: 19px;
+    display: none;
+}
+.popular{
+    display: contents;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 20px;
+}
+.popular h2{
+    font-size: 13px;
 }
 
 
 .container{
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -505,6 +506,7 @@ input{
     background-color: white;
     color: #3A4862;
     margin-left: -80px;
+    margin: 0px 0px 0px -99px !important;
 }
 .sid .crd{
 width: 350px;
@@ -513,8 +515,7 @@ height: 150px;
 .col{
     background-color: hsla(0, 0%, 0%, 0.1);
     width: 414px;
-    width: 100%;
-    height: 460vh;
+    height: 600vh;
     padding: 0px 40px 0px 10px;
 }
 
@@ -524,6 +525,7 @@ height: 150px;
     background-color: white;
     color: #3A4862;
     margin-left: -80px;
+    margin: 0px 0px 0px -99px !important;
 }
 .two{
     line-height: 25px;
@@ -549,6 +551,7 @@ height: 150px;
     background-color: white;
     color: #3A4862;
     margin-left: -80px;
+    margin: 0px 0px 0px -99px !important;
 }
 
 
@@ -594,29 +597,25 @@ height: 150px;
 
 .customers{
     background-color: hsla(177, 87%, 50%, 0.151);
-    height: 80vh;
+    height: 60vh;
     width: 414px;
-    width: 100%;
     font-family: 'Times New Roman', Times, serif;
 
 }
 .customers h1{
-    font-size: 20px;
+    font-size: 10px;
 }
 .amina p{
-    font-size: 20px;
-    /* height: 40vh; */
+    font-size: 10px;
     /* width: 100px; */
 }
 .amina{
     width: 230px;
-    width: 100%;
-    margin-left: -30px;
-    height: 20vh;
+    height: 100px;
 }
 .amina .iam{
-    font-size: 20px;
-    /* width: 150px; */
+    font-size: 10px;
+    width: 150px;
 }
 
 .can{
@@ -653,7 +652,6 @@ height: 150px;
 .work{
     background-color: antiquewhite;
     width: 430px;
-    width: 100%;
     height: 100vh;
     margin-top: 40px;
     padding-top: 30px;
@@ -673,11 +671,10 @@ height: 150px;
 
 footer{
     /* background-color: #384A62; */
-    height: 120vh;
+    height: 160vh;
     margin-left: -170px;
     padding-top: 30px;
-    width: 100%;
-    width: 690px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 90px;
