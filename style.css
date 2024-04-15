@@ -632,15 +632,17 @@ height: 150px;
 }
 .amina p{
     font-size: 10px;
+
     /* width: 100px; */
 }
 .amina{
     width: 230px;
-    height: 100px;
+    height: auto;
 }
 .amina .iam{
     font-size: 10px;
     width: 150px;
+    padding-bottom: 20px;
 }
 
 .can{
