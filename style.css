@@ -617,11 +617,12 @@ height: 150px;
     flex-direction: column;
     margin-top: 30px;
     gap: 20px;
+    padding-bottom: 30px;
 }
 
 .customers{
     background-color: hsla(177, 87%, 50%, 0.151);
-    height: 60vh;
+    height: auto;
     width: 414px;
     font-family: 'Times New Roman', Times, serif;
 
@@ -676,7 +677,7 @@ height: 150px;
 .work{
     background-color: antiquewhite;
     width: 430px;
-    height: 100vh;
+    height: auto;
     margin-top: 40px;
     padding-top: 30px;
     font-family: 'Times New Roman', Times, serif;
@@ -691,15 +692,17 @@ height: 150px;
     display: flex;
     flex-direction: column;
     margin-left: 0px;
+    padding-bottom: 40px;
 }
 
 footer{
     /* background-color: #384A62; */
-    height: 160vh;
+    height: auto;
     margin-left: -170px;
     padding-top: 30px;
     width: 600px;
     display: flex;
+    padding-bottom: 40px;
     flex-direction: column;
     gap: 90px;
 }
